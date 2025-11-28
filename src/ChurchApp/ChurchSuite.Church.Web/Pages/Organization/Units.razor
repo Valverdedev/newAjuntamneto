@@ -1,0 +1,26 @@
+@page "/organization/units"
+
+<h1>Unidades Organizacionais</h1>
+<p>Lista fictícia de unidades organizacionais para prototipação.</p>
+
+<MudTable Items="_units">
+    <HeaderContent>
+        <MudTh>Nome</MudTh>
+        <MudTh>Tipo</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Nome">@context.Name</MudTd>
+        <MudTd DataLabel="Tipo">@context.Type</MudTd>
+    </RowTemplate>
+</MudTable>
+
+@code {
+    private readonly List<(string Name, string Type)> _units = new()
+    {
+        ("Brasil", "NACIONAL"),
+        ("Sudeste", "REGIONAL"),
+        ("Igreja Esperança", "IGREJA_LOCAL"),
+        ("Rede Alpha", "REDE"),
+        ("Célula Luz", "CELULA")
+    };
+}
