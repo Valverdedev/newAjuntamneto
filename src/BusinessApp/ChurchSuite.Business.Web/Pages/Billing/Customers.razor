@@ -1,0 +1,24 @@
+@page "/billing/customers"
+
+<h1>Customers</h1>
+<p>Lista mock de clientes para o painel administrativo.</p>
+
+<MudTable Items="_customers">
+    <HeaderContent>
+        <MudTh>Nome</MudTh>
+        <MudTh>Email</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Nome">@context.Name</MudTd>
+        <MudTd DataLabel="Email">@context.Email</MudTd>
+    </RowTemplate>
+</MudTable>
+
+@code {
+    private readonly List<(string Name, string Email)> _customers = new()
+    {
+        ("Comunidade Esperança", "contato@esperanca.org"),
+        ("Rede Vida", "administracao@redevida.com"),
+        ("Igreja Central", "financeiro@central.org")
+    };
+}

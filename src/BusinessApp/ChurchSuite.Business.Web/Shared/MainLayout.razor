@@ -1,0 +1,20 @@
+@inherits LayoutComponentBase
+
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <MudAppBar Elevation="0">
+            <MudText Typo="Typo.h6">ChurchSuite Business</MudText>
+        </MudAppBar>
+        <section class="content px-4 py-3">
+            @Body
+        </section>
+    </main>
+</div>

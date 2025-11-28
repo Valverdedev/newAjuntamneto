@@ -1,0 +1,26 @@
+@page "/billing/subscriptions"
+
+<h1>Subscriptions</h1>
+<p>Assinaturas mock exibidas para referência.</p>
+
+<MudTable Items="_subscriptions">
+    <HeaderContent>
+        <MudTh>Tenant</MudTh>
+        <MudTh>Plano</MudTh>
+        <MudTh>Status</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Tenant">@context.Tenant</MudTd>
+        <MudTd DataLabel="Plano">@context.Plan</MudTd>
+        <MudTd DataLabel="Status">@context.Status</MudTd>
+    </RowTemplate>
+</MudTable>
+
+@code {
+    private readonly List<(string Tenant, string Plan, string Status)> _subscriptions = new()
+    {
+        ("Tenant A", "Plano Starter", "Ativo"),
+        ("Tenant B", "Plano Pro", "Ativo"),
+        ("Tenant C", "Plano Trial", "Expirado")
+    };
+}
