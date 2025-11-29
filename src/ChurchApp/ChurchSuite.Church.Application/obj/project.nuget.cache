@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "vo9Oan9gnTo=",
+  "success": true,
+  "projectFilePath": "D:\\Evocode\\newAjuntamneto\\src\\ChurchApp\\ChurchSuite.Church.Application\\ChurchSuite.Church.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\valve\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\valve\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\valve\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

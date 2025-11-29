@@ -13,7 +13,7 @@ builder.Services.AddMudServices();
 builder.Services.AddDbContext<BusinessDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(AssemblyReference).Assembly));
+builder.Services.AddMediatR(typeof(AssemblyReference).Assembly);
 
 var app = builder.Build();
 

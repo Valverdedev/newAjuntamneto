@@ -28,7 +28,7 @@ builder.Services.AddScoped<ITenantContext>(sp =>
 builder.Services.AddDbContext<ChurchDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(AssemblyReference).Assembly));
+builder.Services.AddMediatR(typeof(AssemblyReference).Assembly);
 
 var app = builder.Build();
 

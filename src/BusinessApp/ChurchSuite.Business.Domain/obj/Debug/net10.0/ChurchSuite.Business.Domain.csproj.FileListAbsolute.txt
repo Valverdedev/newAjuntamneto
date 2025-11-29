@@ -1,0 +1,16 @@
+D:\Evocode\newAjuntamneto\src\BusinessApp\ChurchSuite.Business.Domain\bin\Debug\net10.0\ChurchSuite.Business.Domain.deps.json
+D:\Evocode\newAjuntamneto\src\BusinessApp\ChurchSuite.Business.Domain\bin\Debug\net10.0\ChurchSuite.Business.Domain.dll
+D:\Evocode\newAjuntamneto\src\BusinessApp\ChurchSuite.Business.Domain\bin\Debug\net10.0\ChurchSuite.Business.Domain.pdb
+D:\Evocode\newAjuntamneto\src\BusinessApp\ChurchSuite.Business.Domain\bin\Debug\net10.0\ChurchSuite.Shared.Domain.dll
+D:\Evocode\newAjuntamneto\src\BusinessApp\ChurchSuite.Business.Domain\bin\Debug\net10.0\ChurchSuite.Shared.Domain.pdb
+D:\Evocode\newAjuntamneto\src\BusinessApp\ChurchSuite.Business.Domain\obj\Debug\net10.0\ChurchSuite.Business.Domain.csproj.AssemblyReference.cache
+D:\Evocode\newAjuntamneto\src\BusinessApp\ChurchSuite.Business.Domain\obj\Debug\net10.0\ChurchSuite.Business.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Evocode\newAjuntamneto\src\BusinessApp\ChurchSuite.Business.Domain\obj\Debug\net10.0\ChurchSuite.Business.Domain.AssemblyInfoInputs.cache
+D:\Evocode\newAjuntamneto\src\BusinessApp\ChurchSuite.Business.Domain\obj\Debug\net10.0\ChurchSuite.Business.Domain.AssemblyInfo.cs
+D:\Evocode\newAjuntamneto\src\BusinessApp\ChurchSuite.Business.Domain\obj\Debug\net10.0\ChurchSuite.Business.Domain.csproj.CoreCompileInputs.cache
+D:\Evocode\newAjuntamneto\src\BusinessApp\ChurchSuite.Business.Domain\obj\Debug\net10.0\ChurchSuite.Business.Domain.sourcelink.json
+D:\Evocode\newAjuntamneto\src\BusinessApp\ChurchSuite.Business.Domain\obj\Debug\net10.0\ChurchSu.8EEFF173.Up2Date
+D:\Evocode\newAjuntamneto\src\BusinessApp\ChurchSuite.Business.Domain\obj\Debug\net10.0\ChurchSuite.Business.Domain.dll
+D:\Evocode\newAjuntamneto\src\BusinessApp\ChurchSuite.Business.Domain\obj\Debug\net10.0\refint\ChurchSuite.Business.Domain.dll
+D:\Evocode\newAjuntamneto\src\BusinessApp\ChurchSuite.Business.Domain\obj\Debug\net10.0\ChurchSuite.Business.Domain.pdb
+D:\Evocode\newAjuntamneto\src\BusinessApp\ChurchSuite.Business.Domain\obj\Debug\net10.0\ref\ChurchSuite.Business.Domain.dll
