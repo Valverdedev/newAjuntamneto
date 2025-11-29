@@ -1,0 +1,72 @@
+# Build artifacts
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+*.stackdump
+*.cache
+*.ipr
+*.iws
+
+# Rider / ReSharper
+.idea/
+_ReSharper*/
+*.DotSettings.user
+resharper-host/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.code-workspace
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+package-lock.json
+package.nuspec
+.nuget/
+
+# Entity Framework
+Migrations/$(Database)/
+*.mdf
+*.ldf
+
+# Logs and diagnostics
+*.log
+logs/
+TestResult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# OS generated
+Thumbs.db
+.DS_Store
+ehthumbs.db
+[Dd]esktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+*.swp
+*.swn
+*.swm
+*.bak
+
+# Publish outputs
+publish/
+artifacts/
+
+# Other tooling
+npm-debug.log*
+yarn-error.log
+dist/
+.env
+.idea_modules/

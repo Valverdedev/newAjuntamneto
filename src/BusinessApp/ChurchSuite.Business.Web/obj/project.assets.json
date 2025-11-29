@@ -591,8 +591,7 @@
           "ChurchSuite.Shared.Application": "1.0.0",
           "ChurchSuite.Shared.Domain": "1.0.0",
           "MediatR": "11.1.0",
-          "Microsoft.EntityFrameworkCore": "8.0.8",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+          "Microsoft.EntityFrameworkCore": "8.0.8"
         },
         "compile": {
           "bin/placeholder/ChurchSuite.Shared.Infrastructure.dll": {}
