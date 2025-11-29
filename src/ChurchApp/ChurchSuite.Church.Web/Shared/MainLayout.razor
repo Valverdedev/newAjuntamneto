@@ -4,17 +4,21 @@
 <MudDialogProvider />
 <MudSnackbarProvider />
 
-<div class="page">
-    <div class="sidebar">
+<div class="layout-grid">
+    <aside class="sidebar">
         <NavMenu />
-    </div>
+    </aside>
 
-    <main>
-        <MudAppBar Elevation="0">
-            <MudText Typo="Typo.h6">ChurchSuite Church</MudText>
-        </MudAppBar>
-        <section class="content px-4 py-3">
+    <section class="main-pane">
+        <header class="topbar">
+            <div class="topbar__titles">
+                <div class="eyebrow">Bom dia, equipe!</div>
+                <div class="headline">Aqui esta o resumo de hoje.</div>
+            </div>
+        </header>
+
+        <section class="content">
             @Body
         </section>
-    </main>
+    </section>
 </div>

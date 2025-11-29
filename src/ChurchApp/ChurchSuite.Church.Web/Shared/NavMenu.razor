@@ -1,6 +1,74 @@
-<nav class="nav-menu">
-    <MudList T="string" Dense="true">
-        <MudListItem T="string" Href="/dashboard" Icon="@Icons.Material.Filled.Dashboard">Dashboard</MudListItem>
-        <MudListItem T="string" Href="/organization/units" Icon="@Icons.Material.Filled.Apartment">Organização</MudListItem>
-    </MudList>
+<nav class="nav-shell">
+    <div class="brand">
+        <div class="brand-mark">CS</div>
+        <div class="brand-text">
+            <div class="brand-title">ChurchSuite</div>
+            <div class="brand-sub">Church</div>
+        </div>
+    </div>
+
+    <div class="nav-section">
+        <div class="section-title">MENU</div>
+        <a class="nav-link active" href="/">
+            <MudIcon Icon="@Icons.Material.Filled.Dashboard" />
+            <span>Dashboards</span>
+            <span class="pill pill-live">Live</span>
+            <MudIcon Icon="@Icons.Material.Filled.KeyboardArrowRight" Class="chevron" />
+        </a>
+        <a class="nav-link" href="#">
+            <MudIcon Icon="@Icons.Material.Filled.Apps" />
+            <span>Apps</span>
+            <MudIcon Icon="@Icons.Material.Filled.KeyboardArrowRight" Class="chevron" />
+        </a>
+        <a class="nav-link" href="#">
+            <MudIcon Icon="@Icons.Material.Filled.ViewQuilt" />
+            <span>Layouts</span>
+            <span class="pill pill-hot">Hot</span>
+            <MudIcon Icon="@Icons.Material.Filled.KeyboardArrowRight" Class="chevron" />
+        </a>
+    </div>
+
+    <div class="nav-section">
+        <div class="section-title">PAGES</div>
+        <a class="nav-link" href="/billing/customers">
+            <MudIcon Icon="@Icons.Material.Filled.PeopleAlt" />
+            <span>Customers</span>
+            <MudIcon Icon="@Icons.Material.Filled.KeyboardArrowRight" Class="chevron" />
+        </a>
+        <a class="nav-link" href="/billing/subscriptions">
+            <MudIcon Icon="@Icons.Material.Filled.ReceiptLong" />
+            <span>Subscriptions</span>
+            <MudIcon Icon="@Icons.Material.Filled.KeyboardArrowRight" Class="chevron" />
+        </a>
+        <a class="nav-link" href="#">
+            <MudIcon Icon="@Icons.Material.Filled.Public" />
+            <span>Landing</span>
+            <MudIcon Icon="@Icons.Material.Filled.KeyboardArrowRight" Class="chevron" />
+        </a>
+    </div>
+
+    <div class="nav-section">
+        <div class="section-title">COMPONENTS</div>
+        <a class="nav-link" href="#">
+            <MudIcon Icon="@Icons.Material.Filled.GridView" />
+            <span>Base UI</span>
+            <MudIcon Icon="@Icons.Material.Filled.KeyboardArrowRight" Class="chevron" />
+        </a>
+        <a class="nav-link" href="#">
+            <MudIcon Icon="@Icons.Material.Filled.AutoGraph" />
+            <span>Advance UI</span>
+            <MudIcon Icon="@Icons.Material.Filled.KeyboardArrowRight" Class="chevron" />
+        </a>
+        <a class="nav-link" href="#">
+            <MudIcon Icon="@Icons.Material.Filled.Widgets" />
+            <span>Widgets</span>
+            <MudIcon Icon="@Icons.Material.Filled.KeyboardArrowRight" Class="chevron" />
+        </a>
+        <a class="nav-link" href="#">
+            <MudIcon Icon="@Icons.Material.Filled.Description" />
+            <span>Forms</span>
+            <MudIcon Icon="@Icons.Material.Filled.KeyboardArrowRight" Class="chevron" />
+        </a>
+    </div>
 </nav>
+

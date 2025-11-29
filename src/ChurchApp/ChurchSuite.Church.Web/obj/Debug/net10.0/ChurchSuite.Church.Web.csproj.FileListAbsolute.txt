@@ -48,7 +48,6 @@ D:\Evocode\newAjuntamneto\src\ChurchApp\ChurchSuite.Church.Web\obj\Debug\net10.0
 D:\Evocode\newAjuntamneto\src\ChurchApp\ChurchSuite.Church.Web\obj\Debug\net10.0\compressed\tzxjg6is5z-{0}-du7z45fy1o-du7z45fy1o.gz
 D:\Evocode\newAjuntamneto\src\ChurchApp\ChurchSuite.Church.Web\obj\Debug\net10.0\compressed\0wz98yz2xy-{0}-u9015k2po7-u9015k2po7.gz
 D:\Evocode\newAjuntamneto\src\ChurchApp\ChurchSuite.Church.Web\obj\Debug\net10.0\compressed\dzrvjopq7v-{0}-9850lpnkly-9850lpnkly.gz
-D:\Evocode\newAjuntamneto\src\ChurchApp\ChurchSuite.Church.Web\obj\Debug\net10.0\compressed\dqf8763oqm-{0}-hc3ngoly7k-hc3ngoly7k.gz
 D:\Evocode\newAjuntamneto\src\ChurchApp\ChurchSuite.Church.Web\obj\Debug\net10.0\compressed\jj3fpe58pn-{0}-j8lzlu28q6-j8lzlu28q6.gz
 D:\Evocode\newAjuntamneto\src\ChurchApp\ChurchSuite.Church.Web\obj\Debug\net10.0\compressed\1i78n379ke-{0}-u1n4jc5v46-u1n4jc5v46.gz
 D:\Evocode\newAjuntamneto\src\ChurchApp\ChurchSuite.Church.Web\obj\Debug\net10.0\staticwebassets.build.json
@@ -62,3 +61,4 @@ D:\Evocode\newAjuntamneto\src\ChurchApp\ChurchSuite.Church.Web\obj\Debug\net10.0
 D:\Evocode\newAjuntamneto\src\ChurchApp\ChurchSuite.Church.Web\obj\Debug\net10.0\ChurchSuite.Church.Web.pdb
 D:\Evocode\newAjuntamneto\src\ChurchApp\ChurchSuite.Church.Web\obj\Debug\net10.0\ChurchSuite.Church.Web.genruntimeconfig.cache
 D:\Evocode\newAjuntamneto\src\ChurchApp\ChurchSuite.Church.Web\obj\Debug\net10.0\ref\ChurchSuite.Church.Web.dll
+D:\Evocode\newAjuntamneto\src\ChurchApp\ChurchSuite.Church.Web\obj\Debug\net10.0\compressed\dqf8763oqm-{0}-0sq0uh2bia-0sq0uh2bia.gz
