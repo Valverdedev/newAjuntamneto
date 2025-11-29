@@ -8,6 +8,8 @@ obj/
 *.cache
 *.ipr
 *.iws
+**/apphost.exe
+**/*.assets.cache
 
 # Rider / ReSharper
 .idea/
