@@ -1,0 +1,63 @@
+@page "/Account/Login"
+@using System.ComponentModel.DataAnnotations
+@using ChurchSuite.Shared.Identity
+@inject UserManager<ApplicationUser> UserManager
+@inject SignInManager<ApplicationUser> SignInManager
+@inject NavigationManager Navigation
+
+<h3>Login</h3>
+
+<EditForm Model="_model" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-2">
+        <label>Email</label>
+        <InputText @bind-Value="_model.Email" class="form-control" />
+    </div>
+    <div class="mb-2">
+        <label>Password</label>
+        <InputText @bind-Value="_model.Password" Type="password" class="form-control" />
+    </div>
+
+    <button class="btn btn-primary" type="submit">Entrar</button>
+</EditForm>
+
+@if (!string.IsNullOrEmpty(_error))
+{
+    <p class="text-danger">@_error</p>
+}
+
+@code {
+    private readonly LoginModel _model = new();
+    private string? _error;
+
+    private async Task HandleLogin()
+    {
+        var user = await UserManager.FindByEmailAsync(_model.Email);
+        if (user is null)
+        {
+            _error = "Usuário não encontrado.";
+            return;
+        }
+
+        var result = await SignInManager.PasswordSignInAsync(user, _model.Password, true, false);
+        if (result.Succeeded)
+        {
+            Navigation.NavigateTo("/");
+            return;
+        }
+
+        _error = "Credenciais inválidas.";
+    }
+
+    private class LoginModel
+    {
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; } = string.Empty;
+
+        [Required]
+        public string Password { get; set; } = string.Empty;
+    }
+}
