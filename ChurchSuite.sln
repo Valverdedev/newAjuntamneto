@@ -4,6 +4,8 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChurchSuite.Shared.Domain", "src/Shared/ChurchSuite.Shared.Domain/ChurchSuite.Shared.Domain.csproj", "{0CCAE721-EAE5-410A-8AB2-36CDF6303E38}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChurchSuite.Shared.Identity", "src/Shared/ChurchSuite.Shared.Identity/ChurchSuite.Shared.Identity.csproj", "{F9449C51-F0F4-479F-A6F2-012B3FA4C4CE}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChurchSuite.Shared.Application", "src/Shared/ChurchSuite.Shared.Application/ChurchSuite.Shared.Application.csproj", "{981C0E36-627B-44D6-BAA3-5FACFB75E72F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChurchSuite.Shared.Infrastructure", "src/Shared/ChurchSuite.Shared.Infrastructure/ChurchSuite.Shared.Infrastructure.csproj", "{E7B6CA5F-CE81-4D7D-9998-331DE4C049CE}"
@@ -34,6 +36,10 @@ GlobalSection(ProjectConfigurationPlatforms) = postSolution
 {0CCAE721-EAE5-410A-8AB2-36CDF6303E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 {0CCAE721-EAE5-410A-8AB2-36CDF6303E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 {0CCAE721-EAE5-410A-8AB2-36CDF6303E38}.Release|Any CPU.Build.0 = Release|Any CPU
+{F9449C51-F0F4-479F-A6F2-012B3FA4C4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{F9449C51-F0F4-479F-A6F2-012B3FA4C4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{F9449C51-F0F4-479F-A6F2-012B3FA4C4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{F9449C51-F0F4-479F-A6F2-012B3FA4C4CE}.Release|Any CPU.Build.0 = Release|Any CPU
 {981C0E36-627B-44D6-BAA3-5FACFB75E72F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 {981C0E36-627B-44D6-BAA3-5FACFB75E72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 {981C0E36-627B-44D6-BAA3-5FACFB75E72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
