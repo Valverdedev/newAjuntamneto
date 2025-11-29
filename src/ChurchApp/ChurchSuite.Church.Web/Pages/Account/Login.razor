@@ -1,0 +1,83 @@
+@page "/account/login"
+@layout LoginLayout
+@using System.ComponentModel.DataAnnotations
+
+<div class="white-card">
+    <div class="auth-card__body">
+        <div class="auth-card__header">
+            <h3>Entrar no painel</h3>
+            <p class="muted">Use seu e-mail corporativo para acessar o ChurchSuite.</p>
+        </div>
+
+        @if (showAuthError)
+        {
+            <div class="auth-error">@authErrorMessage</div>
+        }
+
+        <EditForm Model="loginModel" OnValidSubmit="HandleLogin" class="auth-form">
+            <DataAnnotationsValidator />
+
+            <div class="field">
+                <div class="field-top">
+                    <label for="email">Email</label>
+                    <span class="field-hint">Apenas usuários autorizados</span>
+                </div>
+                <InputText id="email" @bind-Value="loginModel.Email" class="text-input light" placeholder="nome@igreja.com" />
+                <ValidationMessage For="@(() => loginModel.Email)" />
+            </div>
+
+            <div class="field">
+                <div class="field-top">
+                    <label for="password">Senha</label>
+                    <button type="button" class="password-toggle" @onclick="TogglePassword">@(passwordVisible ? "Ocultar" : "Mostrar")</button>
+                </div>
+                <InputText id="password" type="@(passwordVisible ? "text" : "password")" @bind-Value="loginModel.Password" class="text-input light" placeholder="Digite sua senha" />
+                <ValidationMessage For="@(() => loginModel.Password)" />
+            </div>
+
+            <div class="actions-row">
+                <label class="remember">
+                    <input id="remember" type="checkbox" class="checkbox" @bind="rememberMe" />
+                    <span>Permanecer conectado</span>
+                </label>
+                <a class="link" href="#">Esqueceu a senha?</a>
+            </div>
+
+            <button type="submit" class="auth-btn primary">Acessar painel</button>
+        </EditForm>
+
+        <div class="alt-actions">
+            <p class="muted">Precisa de ajuda? <a class="link" href="#">Fale com o suporte</a></p>
+        </div>
+    </div>
+</div>
+
+@code {
+    private readonly LoginModel loginModel = new();
+    private bool rememberMe = true;
+    private bool passwordVisible;
+    private bool showAuthError;
+    private string authErrorMessage = string.Empty;
+
+    private void HandleLogin()
+    {
+        showAuthError = true;
+        authErrorMessage = "Esta é uma tela ilustrativa. Configure a autenticação para continuar.";
+    }
+
+    private void TogglePassword()
+    {
+        passwordVisible = !passwordVisible;
+    }
+
+    private class LoginModel
+    {
+        [Required(ErrorMessage = "Informe seu e-mail.")]
+        [EmailAddress(ErrorMessage = "E-mail inválido.")]
+        public string? Email { get; set; }
+
+        [Required(ErrorMessage = "Informe sua senha.")]
+        [MinLength(6, ErrorMessage = "A senha deve ter pelo menos 6 caracteres.")]
+        public string? Password { get; set; }
+    }
+}
